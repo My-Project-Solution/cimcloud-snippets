@@ -1,0 +1,40 @@
+.header {
+    display: block;
+    max-height: 225px !important;
+}
+.header__hero-search__header {
+    display: none !important;
+}
+.header__hero-search {
+    padding: 10px 20px !important;
+}
+@media (min-width: 7500px) {
+    .home-description {
+        background-color: #008c99;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+   }
+}
+a.header__home i {
+    display: none;
+}
+@media (max-width: 980px){
+    a.header__home {
+        text-align: center;
+        border-right: 1px #fff solid;
+   }
+    a.header__home i {
+        display: initial;
+   }
+}
+.carousel {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 100%;
+    right: inherit;
+}
